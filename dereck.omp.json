@@ -1,0 +1,83 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "os",
+            "style": "plain",
+            "foreground": "#e0e0e0",
+            "background": "#178897"
+          },
+          {
+            "type": "text",
+            "style": "plain",
+            "foreground": "#178897",
+            "background": "#e0e0e0",
+            "properties": {
+              "text": "\uE0B0",
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "type": "root",
+            "style": "plain",
+            "foreground": "#178897",
+            "background": "#e0e0e0"
+          },
+          {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#178897",
+            "background": "#e0e0e0",
+            "properties": {
+              "style": "folder",
+              "postfix": " "
+            }
+          },
+          {
+            "type": "git",
+            "style": "plain",
+            "foreground": "#178897",
+            "background": "#e0e0e0",
+            "properties": {
+              "prefix": "<#178897>\uE0B1 </>"
+            }
+          },
+          {
+            "type": "text",
+            "style": "plain",
+            "foreground": "#e0e0e0",
+            "background": "transparent",
+            "properties": {
+              "text": "\uE0B0",
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ]
+      },
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "newline": true,
+        "segments": [
+          {
+            "type": "exit",
+            "style": "plain",
+            "foreground": "#178897",
+            "properties": {
+              "prefix": "\u276F",
+              "always_enabled": true,
+              "error_color": "#971717",
+              "display_exit_code": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
