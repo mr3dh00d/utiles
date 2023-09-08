@@ -28,7 +28,7 @@
           "properties": {
             "folder_icon": "...",
             "folder_separator_icon": "<transparent> \ue0bd </>",
-            "home_icon": "\ueb06",
+            "home_icon": "\ueb06 ",
             "style": "agnoster_short"
           },
           "style": "diamond",
